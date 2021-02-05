@@ -22,5 +22,7 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("com.hog2020.githubtest", appContext.getPackageName());
+        
+        int a;
     }
 }
